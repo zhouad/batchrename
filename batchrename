@@ -1,2 +1,0 @@
-for it in ?.mp3; do newfile=`echo $it|sed 's/.mp3//'`; mv "$it" "0"$newfile".mp3"; done
-
